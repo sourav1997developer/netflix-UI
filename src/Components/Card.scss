@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin: .5rem;
+
+    &:hover{
+        transform: translateY(-10px);
+    }
+
+   >img{
+    width: 200px;
+   } 
+}
